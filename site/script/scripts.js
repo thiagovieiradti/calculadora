@@ -4,4 +4,4 @@ helloWorld();
 console.log(Somar(1,3));
 console.log(Subtrair(1,3));
 console.log(Multiplicar(4,3));
-console.log(Dividir(1,3));
+console.log(Dividir(1,0));

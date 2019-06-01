@@ -3,9 +3,13 @@ export function Somar(operadorEsquerda, operadorDireita){
     return operadorEsquerda + operadorDireita;
 };
 
-export function Dividir(operadorEsquerda, operadorDireita){
-    console.log(`Dividindo ${operadorEsquerda} / ${operadorDireita}: `); 
-    return operadorEsquerda / operadorDireita;
+export function Dividir(dividendo, divisor){
+    if(divisor == 0){
+        console.log(`Erro, divisão por zero`); 
+        return;
+    }
+    console.log(`Dividindo ${dividendo} / ${divisor}: `); 
+    return dividendo / divisor;
 };
 
 export function Subtrair(operadorEsquerda, operadorDireita){
