@@ -21,3 +21,8 @@ export function Multiplicar(operadorEsquerda, operadorDireita){
     console.log(`Multiplicando ${operadorEsquerda} X ${operadorDireita}: `); 
     return operadorEsquerda * operadorDireita;
 };
+
+export function MultiplicarTresOps(operadorEsquerda, operadorMeio, operadorDireita) {
+    console.log(`Multiplicando ${operadorEsquerda} X ${operadorMeio} X ${operadorDireita}: `);
+    return operadorEsquerda * operadorMeio * operadorDireita;
+};
