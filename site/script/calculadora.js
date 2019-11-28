@@ -4,7 +4,7 @@ export function Somar(operadorEsquerda, operadorDireita){
 };
 
 export function Dividir(dividendo, divisor){
-    if(divisor == 0){
+    if(divisor === 0){
         console.log(`Erro, divisão por zero`); 
         return;
     }
