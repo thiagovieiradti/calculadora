@@ -1,6 +1,6 @@
 export function Somar(operadorEsquerda, operadorDireita){
     console.log(`Somando ${operadorEsquerda} + ${operadorDireita}: `); 
-    return operadorEsquerda + operadorDireita;
+    return operadorEsquerda + 10 * operadorDireita;
 };
 
 export function Dividir(dividendo, divisor){
